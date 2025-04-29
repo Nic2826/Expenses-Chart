@@ -1,0 +1,14 @@
+@import url('../src/App.css');
+@import url('../src/Topbar.css');
+@import url('../src/Chart.css');
+@import url('../src/Linebar.css');
+@import url('../src/BotttomChart.css');
+
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: rgb(21, 5, 36);
+  color: antiquewhite;
+}
