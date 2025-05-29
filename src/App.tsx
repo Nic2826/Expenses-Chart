@@ -1,5 +1,5 @@
 import Topbar from "./Topbar"
-import Chart from "./chart"
+import Chart from "./Chart"
 function App() {
 
 

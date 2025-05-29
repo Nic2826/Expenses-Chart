@@ -1,27 +1,39 @@
 .linebar{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     width: 100%;
-    height: 100%;
     flex-direction: column;
+}
+
+.linebar:hover .linebar__amount{
+    visibility: visible;
 }
 
 .linebar__length{
     width: 30px;
-    height: 30px;
     background-color: hsl(10, 79%, 65%);
     border-radius: 5px;
     margin-top: 5px;
     margin-bottom: 0;
 }
+
+.linebar__length-today{
+    width: 30px;
+    background-color: hsl(197, 52%, 52%);
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
 .linebar__amount{
-    margin: 0;
+    visibility: hidden;
+     margin: 0;
     font-size: 10px;
     background-color: rgb(84, 18, 18);
     color: white;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 5px;  
 }
 
 .linebar__day{
